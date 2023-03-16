@@ -29,7 +29,7 @@
 	通过OPS提供的接口（暂无）获取基础设施维护的所有工程的仓库链接。
 2. 使用trivy获取各个仓库的packages
 	
-	通过命令 `trivy repo project_address --list-all-pkgs --format json --output project_name.json` 可以将单个仓库的扫描信息以json文件导出。以项目 https://github.com/opensourceways/issue_pr_board 为例，下面展示了issue_pr_board.json的片段（完整文件可点击[完整文件跳转链接]()查看）。
+	通过命令 `trivy repo project_address --list-all-pkgs --format json --output project_name.json` 可以将单个仓库的扫描信息以json文件导出。以项目 https://github.com/opensourceways/issue_pr_board 为例，下面展示了issue_pr_board.json的片段（完整文件可点击[示例](https://github.com/nicliuqi/icms/blob/main/source/issue_pr_board.json)查看）。
 
 	```json
 	{
